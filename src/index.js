@@ -1,13 +1,20 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { BlackBox } from './components/BlackBox/BlackBox';
+import { TitleDate } from './components/TitleDate/TitleDate';
+import { InputSearch } from './components/InputSearch/InputSearch';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <main className='main'>
+      <BlackBox>
+          <TitleDate/>
+          <InputSearch/>
+      </BlackBox>
+    </main>
   </React.StrictMode>
 );
 

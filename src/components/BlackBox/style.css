@@ -1,0 +1,7 @@
+.container__box{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    width: max-content;
+    padding: 34px;
+}

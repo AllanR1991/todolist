@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+.title__date{
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+    color: #FCFCFC;
+    text-transform: capitalize;
+}
+
+.title__date--day{
+    color: blueviolet;
+}
+
+.textComum{
+    text-transform: lowercase;
+}
+
