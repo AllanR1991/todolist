@@ -1,22 +1,26 @@
+.input__container{
+    position: relative;
+}
+
 .input__search{
-    background-color: aqua      ;
+    background-color: transparent;
     border: 1.54px #FFFCFCFC solid;
     border-radius: 8px;
     height: 42.44px ;
-    position: relative;
     padding-left: 40px;
+    padding-right: 20px;
+    color: #FCFCFC;
+    text-align: right;
 }
 
-.input__search::after{
+.input__search::placeholder{ 
+    color: #FCFCFC;
+}
+
+.input__img{
     position: absolute;
-    content: '';
-    background-size: 16px 16px;
-    background-repeat: no-repeat;
-    background-image: url("../../Images/search.png");
-    left: 10px; /* Posição à esquerda do input */
-    top: 50%; /* Centraliza verticalmente */
-    transform: translateY(-50%); /* Ajusta para centralizar */
-    background-color: red; /* Adicionei uma cor de fundo para testar */
-    width: 16px; /* Largura do ícone */
-    height: 16px; /* Altura do ícone */
+    width: 25px;
+    left: 10px;
+    top: 50%; /* Adjust this based on the container's height */
+    transform: translateY(-50%); /* Center vertically */
 }
