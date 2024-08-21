@@ -3,6 +3,7 @@
 }
 
 .input__search{
+    box-sizing: border-box;
     background-color: transparent;
     border: 1.54px #FFFCFCFC solid;
     border-radius: 8px;
@@ -11,6 +12,7 @@
     padding-right: 20px;
     color: #FCFCFC;
     text-align: right;
+    width: 100%;
 }
 
 .input__search::placeholder{ 

@@ -1,0 +1,54 @@
+.container__task{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #FCFCFC;
+    gap: 10px;
+    padding: 17px;
+    border-radius: 3.86px;
+}
+
+.container__task--checkbox{
+
+}
+
+.container__task--description{
+    width: 100%;
+    margin: 0;
+}
+
+.container__button{
+    display: flex;
+    gap: 10px;
+    
+}
+
+.botton__delete{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    border: 1.54px #1E123B solid;
+    border-radius: 3.86px;
+    cursor: pointer;
+}
+
+.botton__delete--image{
+    width: 24px;
+    height: 24px;
+}
+
+.botton__alterate{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    border: 1.54px #1E123B solid;
+    border-radius: 3.86px;
+    cursor: pointer;
+}
+
+.botton__alterate--image{
+    width: 24px;
+    height: 24px;
+}

@@ -5,6 +5,7 @@ import reportWebVitals from './reportWebVitals';
 import { BlackBox } from './components/BlackBox/BlackBox';
 import { TitleDate } from './components/TitleDate/TitleDate';
 import { InputSearch } from './components/InputSearch/InputSearch';
+import { Task } from './components/Task/Task';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -13,6 +14,7 @@ root.render(
       <BlackBox>
           <TitleDate/>
           <InputSearch/>
+          <Task/>
       </BlackBox>
     </main>
   </React.StrictMode>
